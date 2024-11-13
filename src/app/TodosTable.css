@@ -1,0 +1,76 @@
+/* Container styles */
+.styled-card {
+  padding: 1rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Table header styles */
+.table-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  color: #333;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+/* DataTable styles */
+.styled-table {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Column styles */
+.column-id {
+  text-align: center;
+  font-weight: bold;
+  color: #7a7a7a;
+  width: 100px;
+}
+
+.column-title {
+  font-weight: 500;
+  color: #333;
+}
+
+.column-completed {
+  text-align: center;
+  color: #0056b3;
+}
+
+/* Filter dropdown styling */
+.p-column-filter {
+  padding: 0.25rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+/* Row hover and alternating color */
+.p-datatable .p-datatable-tbody > tr:nth-child(even) {
+  background-color: #f4f6f8;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+  background-color: #e8f0fe;
+}
+
+/* Pagination styles */
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background-color: #007ad9;
+  color: #fff;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page:hover {
+  background-color: #e8f0fe;
+  color: #333;
+}
+
+.headrGroup{
+  float: right;
+}
+
